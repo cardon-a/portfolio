@@ -1,0 +1,50 @@
+footer {
+    height: 150px;
+    background-color: #2162f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+footer > p {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+footer > div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer > div > p {
+    font-size: 18px;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    footer > p {
+        font-size: 30px;
+    }
+
+    footer > div {
+        gap: 10px;
+    }
+
+    footer > div > p {
+        font-size: 12px;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+}
